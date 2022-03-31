@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color:rgb(255, 255, 255) ;
+    position: relative;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size:30px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    position: fixed;
+    background-color: brown;
+    z-index: 999;
+}
+
+.header ul li i{
+    font-size: 25px;
+}
+
+.header ul li {
+    margin-right: 30px;
+}
+
+.main {
+    padding-top: 76px;
+    color: #000;
+    
+}
+
+
+/*------------------------------------ sidebar  -----------------------------------------*/
+.sidebar {
+    position: fixed;
+    padding: 0 14px;
+    height: 100%;
+    background-color: #030030;
+    width: 16.6667%;
+    margin-left: -15px;
+}
+
+.sidebar .logo_name {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+.sidebar ul li{
+    list-style: none;
+    width: 100%;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.sidebar ul li a i {
+    height: 50px;
+    line-height: 50px;
+    padding-right: 5px;
+}
+
+.sidebar ul {
+    margin-top: 30px
+}
+
+.sidebar ul li a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.sidebar ul li:hover {
+    background-color: rgb(129, 35, 35);
+    color: #111011;
+}
+
+
+/* ----------------------end sidebar ------------------------------ */
+
+/* ---------------------content------------------------- */
+.dataTable-table > thead > tr > th {
+    text-align: center;
+}
+/* left-content */
+.bg-content {
+    /* background-image: url(./imgs/bg-cf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 76px);
+    overflow-y: auto; */
+    background-color: #fff;
+}
+.content {
+    /* padding-right: 15px; */
+    padding-left: 15px;
+    height: auto;
+    
+}
+.header-content {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.icon-header.d-flex {
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.header-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon-coffee {
+    font-size: 34px;
+    padding: 10px 15px 0 16px;
+    border: #030030 ridge 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.active-icon {
+    border: #2519ce ridge 3px;
+}
+.icon-coffee:hover {
+    border: #2519ce ridge 3px;
+    background-color: antiquewhite;
+}
+
+.table-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: aqua solid 6px;
+}
+.icon-coffee i {
+    color:rgb(117, 97, 70)
+}
+.icon-coffee-small {
+    font-size: 26px;
+    padding: 14px 12px 14px 16px;
+}
+.icon-coffee-small:hover {
+    border: #030030 ridge 3px;
+    background-color: #fff;
+    cursor: inherit;
+}
+/* end left-content */
+
+/* right-content */
+.original-info {
+    flex-wrap: wrap;
+    margin: 28px;
+}
+.mg-0-40 {
+    margin: 0 40px;
+}
+
+.icon-add { 
+    font-size: 30px;
+    color: rgb(9, 78, 55);
+    padding: 10px;
+}
+
+.table-list {
+    width: 95%;
+    text-align: center; 
+    border: 3px solid #000 ;
+}
+.table-list,.table th {
+    text-align: center;
+}
+.table {
+    text-align: center;
+}
+.table th {
+    text-align: center;
+}
+
+
+/* -------------------------- pay.html------------------------------- */
+.select-menu{
+    margin-top: 28px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.table-pay {
+    margin-top: 30px;
+}
+.input-number {
+    width: 70px;
+    background-color: inherit;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.footer-pay {
+    margin-top: 40px;
+}
+.pay-print-icon {
+    font-size: 46px;
+    padding: 7px 19px;
+    border: 4px solid rgb(115 103 90);
+    border-radius: 26px;
+    color: rgb(239, 246, 248);
+    background-color: rgb(129, 35, 35, 50%);
+}
+.pay-print-icon:hover {
+    opacity: 0.7;
+    color: antiquewhite;
+}
+/* --------------end pay.html--------------------- */
+
+/* ----------------------user.html------------------- */
+.info-user{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    font-size: 20px;
+}
+.info-value{
+    margin-left: 50px;
+}
+.footer-icon {
+    background-color: rgba(124, 34, 46, 0.5);
+    padding: 10px;
+    font-size: 20px;
+    color: #000;
+    border-radius: 0.25rem;
+}
+.footer-icon:hover {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgba(97, 80, 54, 0.5);
+}
+.table-user, .table-user th {
+    text-align: left;
+}
+.table-user {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+@media (max-width: 1024px) {
+    .table-user{
+        width: 100%;
+
+    }
+}
